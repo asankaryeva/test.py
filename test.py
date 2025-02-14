@@ -32,4 +32,16 @@ elif open=='7':
     print(result)
 elif oper=='8':
     result=(num1**3)
-    print(result)    
+    print(result)
+
+number = [22, 45, 67, 12, 89, 34, 55, 90, 10]
+max_num = number[0]
+min_num =number[0]
+for num in number:
+    if num > max_num:
+        max_num = num
+    if num < min_num:
+        min_num = num 
+print ("максимальное число:", max_num)
+print ("минимальное число:", min_num)    
+
